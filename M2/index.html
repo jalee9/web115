@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Intro Assignment</title>
+</head>
+<body>
+    <!-- Student information displayed using paragraph tags -->
+    <p>Sally Student</p>
+    <p>sstudent@my.waketech.edu</p>
+    <p>Information Technology</p>
+
+    <!-- Placeholder paragraph where JavaScript will display dynamic content -->
+    <p id="results"></p>
+
+    <!-- JavaScript begins here -->
+    <script>
+        // Show an alert message when the page loads
+        alert("Coding with JavaScript");
+
+        // Display a message inside the paragraph element with the ID 'results'
+        // This replaces the inner HTML content of that element
+        document.getElementById("results").innerHTML = "JavaScript is Cool";
+
+        // Change the color of all text on the page to red
+        // This uses the 'style' property of the body element
+        document.body.style.color = "red";
+    </script>
+</body>
+</html>

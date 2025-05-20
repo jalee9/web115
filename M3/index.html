@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find The Error</title>
+    <!-- Keep defer so JS runs after DOM is ready -->
+    <script src="trouble.js" defer></script>
+    <style>
+        div {
+            height: 40px;
+            text-align: center;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 24px;
+        }
+        #red { background-color: red; }
+        #orange { background-color: orange; }
+        #yellow { background-color: yellow; }
+        #green { background-color: green; }
+        #blue { background-color: blue; } /* ✅ Added missing #blue style */
+        #indigo { background-color: indigo; }
+        #violet { background-color: violet; }
+    </style>
+</head>
+<body>
+    <p>This page should display an alert() method pop-up and display a JavaScript rainbow but it doesn't. Why? Fix and make comment in your code on what is changed.</p>
+
+    <section id="s1">
+        <div id="red">RED</div>
+        <div id="orange">ORANGE</div>
+        <div id="yellow">YELLOW</div>
+        <div id="green">GREEN</div>
+        <div id="blue">BLUE</div> <!-- ✅ Added missing div for blue -->
+        <div id="indigo">INDIGO</div>
+        <div id="violet">VIOLET</div>
+    </section>
+</body>
+</html>

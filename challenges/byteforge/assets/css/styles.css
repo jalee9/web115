@@ -1,0 +1,19 @@
+/* Custom styles for the form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Styles for error messages */
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles for success message */
+.success-message {
+color: green;
+font-size: 1.1em;
+}
