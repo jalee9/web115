@@ -1,4 +1,4 @@
-# 🎯 High/Low Guessing Game – Module 6 (WEB 115)
+# 🎯 M5 Assignment - High/Low Guessing Game 
 
 This project is a simple browser-based guessing game created as part of the Module 6 assignment for WEB 115 at Wake Technical Community College.
 
